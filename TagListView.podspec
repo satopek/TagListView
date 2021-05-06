@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "LIU Dongyuan" => "liu.dongyuan@gmail.com" }
   
-  s.swift_version = '5.0'
+  s.swift_version = '5.3'
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/ElaWorkshop/TagListView.git", :tag => s.version }
   s.source_files = "TagListView/*.swift"
   s.requires_arc = true
